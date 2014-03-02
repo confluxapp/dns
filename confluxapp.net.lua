@@ -4,3 +4,7 @@
 
 -- replace github-username with your username
 github_pages(_a, "confluxapp")
+
+-- MX records for Zoho Mail
+mx(_a, "mx.zohomail.com", 10)
+mx(_a, "mx2.zohomail.com", 20)
